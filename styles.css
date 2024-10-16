@@ -22,7 +22,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #1d284486; */
   backdrop-filter: blur(15px);
   color: rgb(12, 172, 132);
   font-family: "Times New Roman", Times, serif;
@@ -37,8 +36,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-right: 2%;
-
-  /* background-color: #25d6d6; */
 }
 .section h3 {
   width: 7vw;
@@ -50,9 +47,7 @@ body {
   border-radius: 10%;
   cursor: pointer;
   font-size: 1.35vw;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
 }
 
 .section h3:hover {
@@ -63,16 +58,12 @@ body {
 #content {
   width: 100%;
   height: 90%;
-  /* background-color: crimson; */
   padding: 1px;
   color: rgba(245, 245, 245, 0.833);
 }
 .bio {
   width: 85%;
   height: 55%;
-
-  /* background-color: #23143b; */
-  /* backdrop-filter: blur(15px); */
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 3s ease-out, transform 3s ease-out;
@@ -99,14 +90,12 @@ body {
   margin-top: 1%;
   font-size: 3.4vw;
   font-weight: 600;
-  /* color: red; */
 }
 .bio h4 {
   margin-top: 1%;
   font-size: 2.4vw;
   font-weight: 550;
   font-family: "Times New Roman", Times, serif;
-  /* color: red; */
 }
 .button {
   width: 8%;
@@ -116,20 +105,17 @@ body {
   margin-top: 2%;
   font-size: 1.3vw;
   font-family: "Times New Roman", Times, serif;
-  /* justify-content: center; */
   background-color: rgb(12, 172, 132);
   border: none;
-  /* border-radius: 20%; */
   color: black;
   cursor: pointer;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
-    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, 
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 .button:hover {
-  /* background-color: rgb(12, 172, 132); */
   color: whitesmoke;
-  /* font-size: 1.5vw; */
 }
 
 #contact {
@@ -139,7 +125,6 @@ body {
   backdrop-filter: blur(15px);
   margin-top: 5%;
   box-shadow: inset 0 0 35px 5px rgba(0, 0, 0, 0.25),
-    /* inset 0 2px 1px 1px rgba(255, 255, 255, 0.9), */
     inset 0 -2px 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -167,13 +152,13 @@ body {
 }
 
 .social-media-icons a {
-  color: #5f5858d8; /* Default icon color */
+  color: #5f5858d8; 
   text-decoration: none;
-  font-size: 1.4vw; /* Icon size */
-  transition: color 0.3s ease; /* Smooth color transition on hover */
+  font-size: 1.4vw; 
+  transition: color 0.3s ease; 
 }
 
 .social-media-icons a:hover {
-  color: #007bff; /* Icon color on hover */
+  color: #007bff; 
 }
 
